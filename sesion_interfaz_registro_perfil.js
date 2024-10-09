@@ -1,4 +1,5 @@
-// Clase para la funcionalidad de perfil
+
+// daniel hace instancia para la funcionalidad de perfil
 class Perfil {
     constructor() {
         // Inicializa los eventos del perfil

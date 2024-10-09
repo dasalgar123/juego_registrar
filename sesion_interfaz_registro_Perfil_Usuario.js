@@ -1,4 +1,4 @@
-// Clase para la funcionalidad de PerfilUsuario
+// Daniel Crear una instancia  la funcionalidad de PerfilUsuario
 class PerfilUsuario {
     constructor() {
         this.nombreInput = document.querySelector('input[placeholder="favor, ingrese su nombre"]');

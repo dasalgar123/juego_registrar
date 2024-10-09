@@ -1,4 +1,4 @@
-// Clase principal para inicializar todo
+// Daniel Crear una instancia para inicializar todo
 class App {
     constructor() {
         // Instancia de las clases que manejan cada funcionalidad
@@ -10,7 +10,7 @@ class App {
     }
 }
 
-// Inicializa la aplicación cuando el DOM esté cargado
+// Daniel Crear una instancia la la aplicación cuando el DOM esté cargado
 document.addEventListener('DOMContentLoaded', () => {
     new App(); // Crea una nueva instancia de la clase App
 });

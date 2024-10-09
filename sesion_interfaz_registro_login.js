@@ -1,4 +1,4 @@
-// Clase para la funcionalidad de inicio de sesión
+ // Daniel Crear una instancia  la funcionalidad de de inicio de sesión
 class Login {
     constructor() {
         this.initLoginListeners();
@@ -13,11 +13,8 @@ class Login {
 
         const nombre = document.querySelector('input[placeholder="favor, ingrese su nombre"]').value;
         const contraseña = document.querySelector('input[placeholder="favor, ingrese su contraseña"]').value;
-
         const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
-
         const usuario = usuarios.find(user => user.nombre === nombre && user.contraseña === contraseña);
-
         const mensajeContainer = document.getElementById('mensaje');
         mensajeContainer.textContent = '';
 
