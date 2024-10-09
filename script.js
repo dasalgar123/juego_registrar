@@ -61,7 +61,7 @@ document.getElementById('btnEntrar').addEventListener('click', (e) => {
 // Manejo de eventos para otros botones
 document.getElementById('btnInicio').addEventListener('click', (e) => {
     e.preventDefault();
-    cargarPagina('https://juegopagprincipal.netlify.app'); // Cambia esto a la página de inicio
+    cargarPagina('https://https://juegopagprincipal.netlify.app'); // Cambia esto a la página de inicio
 });
 
 document.getElementById('btnSalir').addEventListener('click', (e) => {
