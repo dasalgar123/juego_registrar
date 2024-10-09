@@ -1,29 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('fondo_2.jpg');
-    background-size: cover;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100vh; /* Asegurarse de que ocupe toda la altura de la ventana */
-}
+/* daniel aca el html juego piedra, papel y tijeras registro sesion registro*/ 
 
-#app { text-align: center;}
+/* daniel configura el body con un aimagen de fondo*/
+body { font-family: Arial, sans-serif; background-image: url('https://via.placeholder.com/1920x1080/87CEFA/FFFFFF?text=Fondo'); /* Cambia esta URL por la de tu imagen de fondo */ background-size: cover; margin: 0; padding: 20px;}
+
+/* daniel configura el formulario*/
+#app {text-align: center;}
 .frame { background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+h1 { color: #007bff;}
 
-/* El resto de tu CSS se queda igual */
-h1 { color: #007bff; }
-.btnPerfil { margin: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
-.btnPerfil:hover { background-color: #0056b3; border: 2px solid black; }
-.perfil-img { width: 100px; height: 100px; margin: 20px; cursor: pointer; transition: transform 0.2s; box-shadow: 10px 10px 20px black;}
-.perfil-img:hover { transform: scale(1.1); box-shadow: 10px 10px 20px black;}
+/* daniel configura la imagen */
 .img-container { display: flex; flex-wrap: wrap; justify-content: center;}
-.perfiles_jugar { display: flex; justify-content: space-evenly;}
-.text_vamos { font-size: 30px; color: #007bff;}
-.perfiles_jugar { background-color: white; display: flex; justify-items: center;}
-#btnJugar { background-color: white; border: 2px solid wheat; border-radius: 30px; font-size: 20px; width: 100px; height: 100px;}
-#btnJugar:hover { box-shadow: 2px 2px 5px #007bff;}
 
-.contenedor_btn{display: flex; justify-content: space-between; margin-top: 20px;}
+/* daniel configura de perfiles*/
+.perfiles_jugar{ display: flex; justify-content: space-evenly;}
+.text_vamos{ font-size: 30px; color: #007bff;}
+.perfiles_jugar{ background-color: white; display: flex; justify-items: center;}
+.perfil-img { width: 100px; height: 100px; margin: 20px; cursor: pointer; transition: transform 0.2s; box-shadow: 10px 10xp 20px black;}
+.perfil-img:hover { transform: scale(1.1); box-shadow: 10px 10xp 20px black;}
+
+/* daniel configura los botones*/
+#btnJugar{ background-color: white; border: 2px solid   wheat; border-radius: 30px; font-size: 20px; width: 100px; height: 40px;}
+#btnJugar:hover{ box-shadow: 2px 2px 5px  #007bff;}
+.btnPerfil:hover { background-color: #0056b3; border: 2px solid black;  border-radius: 30px;}
+.btnPerfil { margin: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;}
+.btnRegistrar{ margin: 10px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;}
+
+/* daniel configura los contenedores*/
+.ContenedorOpciones { display: flex; justify-content: space-around; align-items: center; gap: 10px; }
+.contendor_tu_nombre{ background-color: white;border: 1px solid  #007bff; width:200px ; height: 30px; border-radius: 0 20px 0 20px;margin-top: 10px;}
+
+/* daniel configura hover el formulario*/
+fieldset { transition: transform 0.3s ease-in-out;}
+fieldset:hover { transform: scale(1.1);}
